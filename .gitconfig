@@ -1,1 +1,18 @@
-/home/hly/.gitconfig
+[user]
+	name = longyu.huang
+	email = longyu.huang@ck-telecom.com
+
+[commit]
+    template = ~/work/env/.gitmessage
+[core]
+	editor = vim
+[color]
+	diff = auto
+	branch = auto
+	status = auto
+	ui =auto
+[alias]
+	st = status
+    df = diff
+    p = pull origin
+    pr = pull --rebase origin
