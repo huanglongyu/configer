@@ -15,4 +15,4 @@
 	st = status
     df = diff
     p = pull origin
-    pr = pull --rebase origin
+    pr = pull --rebase
