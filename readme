@@ -1,3 +1,5 @@
 add "source /home/hly/work/env/android.conf" to the end of etc/bash.bashrc
 
 git push -u origin master
+
+extDiff is the shell script in bin project
