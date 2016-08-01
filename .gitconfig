@@ -1,9 +1,9 @@
 [user]
     name = longyu.huang
-    email = longyu.huang@ck-telecom.com
+    email = longyu.huang2014@gmail.com
 
-[commit]
-    template = ~/work/env/.gitmessage
+#[commit]
+#    template = ~/work/env/.gitmessage
 [core]
     editor = vim
 [color]
