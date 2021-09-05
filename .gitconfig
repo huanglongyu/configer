@@ -19,6 +19,7 @@
     pr = pull --rebase
     last = log -1
     unstage = reset HEAD
+    cko = checkout
 
 [merge]
     tool = extMerge
