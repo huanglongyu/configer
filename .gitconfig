@@ -2,8 +2,6 @@
     name = longyu.huang
     email = longyu.huang2014@gmail.com
 
-#[commit]
-#    template = ~/work/env/.gitmessage
 [core]
     editor = vim
 [color]
@@ -14,23 +12,4 @@
 [alias]
     st = status
     df = diff
-    dt = difftool
-    p = pull origin
     pr = pull --rebase
-    last = log -1
-    unstage = reset HEAD
-    cko = checkout
-
-[merge]
-    tool = extMerge
-[mergetool "extMerge"]
-    cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
-[mergetool]
-    trustExitCode = false
-[diff]
-    #if configer exiternal, diff will always run external program
-    #external = extDiff
-    tool = guiTool
-[difftool "guiTool"]
-    cmd = extDiff "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
-    prompt = false
