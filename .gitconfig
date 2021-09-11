@@ -13,3 +13,4 @@
     st = status
     df = diff
     pr = pull --rebase
+    cko = checkout
